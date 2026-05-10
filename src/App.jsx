@@ -1,11 +1,5 @@
 import { motion } from "framer-motion";
-import {
-  Github,
-  Linkedin,
-  Mail,
-  Phone,
-  ArrowDown,
-} from "lucide-react";
+import { ArrowDown, GitBranch, Link, Mail, Phone } from "lucide-react";
 
 function App() {
   return (
@@ -104,14 +98,14 @@ function App() {
                   href="https://github.com/JoseEduardo-max"
                   target="_blank"
                 >
-                  <Github className="hover:text-cyan-400 transition" />
+                  <GitBranch className="hover:text-cyan-400 transition" />
                 </a>
 
                 <a
                   href="https://www.linkedin.com/in/josé-eduardo-araújo/"
                   target="_blank"
                 >
-                  <Linkedin className="hover:text-cyan-400 transition" />
+                  <Link className="hover:text-cyan-400 transition" />
                 </a>
 
                 <a href="mailto:jeduardoff2@gmail.com">

@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import { motion } from 'framer-motion'
-import { Mail, Phone, Github, Linkedin, Send, CheckCircle } from 'lucide-react'
+import { CheckCircle, GitBranch, Link, Mail, Phone, Send } from 'lucide-react'
 import { personal } from '@/data'
 import { RevealOnScroll } from '@/components/ui/RevealOnScroll'
 import { SectionLabel } from '@/components/ui/SectionLabel'
@@ -20,14 +20,14 @@ const CONTACT_ITEMS = [
     href: `mailto:${personal.email}`,
   },
   {
-    icon: <Github size={18} />,
+    icon: <GitBranch size={18} />,
     label: 'GitHub',
     value: 'JoseEduardo-max',
     href: personal.github,
     external: true,
   },
   {
-    icon: <Linkedin size={18} />,
+    icon: <Link size={18} />,
     label: 'LinkedIn',
     value: 'José Eduardo Araújo',
     href: personal.linkedin,

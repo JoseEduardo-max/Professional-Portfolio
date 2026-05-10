@@ -1,4 +1,3 @@
-import { Github, Linkedin, Mail } from 'lucide-react'
 import { personal } from '@/data'
 
 export function Footer() {

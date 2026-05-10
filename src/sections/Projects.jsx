@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion'
-import { Github, ExternalLink } from 'lucide-react'
+import { ExternalLink, GitBranch } from 'lucide-react'
 import { projects } from '@/data'
 import { RevealOnScroll } from '@/components/ui/RevealOnScroll'
 import { SectionLabel } from '@/components/ui/SectionLabel'
@@ -108,7 +108,7 @@ function ProjectCard({ project, index }) {
             style={{ border: '1px solid var(--border-2)', color: 'var(--muted)' }}
             whileHover={{ borderColor: '#3b7fff', color: '#00cfff' }}
           >
-            <Github size={14} />
+            <GitBranch size={14} />
             GitHub
           </motion.a>
           <motion.a
